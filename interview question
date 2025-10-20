@@ -1,0 +1,39 @@
+1. What is method overloading?
+Method overloading means defining multiple methods with the same name but different parameter lists (type, number, or order).
+It helps increase code readability and reusability.
+
+2. How do you handle divide-by-zero?
+You can handle divide-by-zero by checking if the denominator is zero before dividing.
+If it’s zero, display an error message or return a special value like Double.NaN.
+
+3. Difference between == and .equals()?
+== compares references (memory addresses) of objects.
+.equals() compares the contents or values of two objects.
+
+4. What are the basic data types in Java?
+Java has 8 primitive data types: byte, short, int, long, float, double, char, and boolean.
+They store simple values directly in memory.
+
+5. How is Scanner used for input?
+Scanner is a class in java.util used to take user input from the console.
+Example: Scanner sc = new Scanner(System.in); int n = sc.nextInt();
+
+6. Explain the role of a loop.
+A loop repeatedly executes a block of code until a condition is false.
+It helps reduce code repetition and automate repetitive tasks.
+
+7. Difference between while and for loop?
+A while loop is used when the number of iterations is unknown.
+A for loop is used when you know how many times you want to repeat the code.
+
+8. What is the JVM?
+JVM (Java Virtual Machine) runs Java bytecode and converts it into machine code for the host system.
+It provides portability, memory management, and garbage collection.
+
+9. How is Java platform-independent?
+Java code is compiled into bytecode, which runs on the JVM.
+Since JVMs exist for all major OS, Java programs can run anywhere.
+
+10. How do you debug a Java program?
+Use print statements or a debugger tool (like in VS Code or IntelliJ) to trace variables and flow.
+Set breakpoints and inspect values step-by-step to find errors.
